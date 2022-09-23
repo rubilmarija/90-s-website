@@ -15,10 +15,12 @@
   </head>
 
   <body>
+    <!-- Title of the page -->
     <div class="header">
       <h1>The X-Files Fan Page</h1>
     </div>
 
+    <!-- GIF Welcome -->
     <div class="main-greeting">
       <iframe
         src="https://giphy.com/embed/l378wbCYOOV3cQqeQ"
@@ -30,23 +32,20 @@
       ></iframe>
     </div>
 
+    <!-- NAVIGATION BAR -->
     <nav class="links">
-      <a href="#cast">Cast and characters</a>
-      <a href="#episodes">Episodes</a>
+      <a href="./cast.html">Cast and characters</a>
+      <a href="./episodes.html">Episodes</a>
       <a href="#photos">Photos</a>
       <a href="#videos">Videos</a>
     </nav>
 
-    <div class="intro-music">
-      <iframe
-        width="420"
-        height="345"
-        src="https://www.youtube.com/embed/CYeIO9nxick"
-      >
-      </iframe>
-    </div>
+    <!-- MUSIC -->
+    <div class="intro-music"> </div>
 
+    <!-- Genres -->
     <div class="genres">
+      <!-- <button id="button">Click me</button>-->
       <h3>Genres</h3>
       <ul>
         <li>Sci-Fi</li>
@@ -57,7 +56,8 @@
       </ul>
     </div>
 
-    <div class="storyline">
+    <!-- Storyline -->
+    <div class="storyline" id="storyline">
       <h3>Storyline</h3>
       <p>
         Two FBI agents, Fox Mulder and Dana Scully work in an unassigned detail
@@ -66,46 +66,114 @@
         skeptic, perceive their cases from stand points of science and the
         paranormal.
       </p>
+      <button class="story-link">
+        <a href="./aboutXfiles.html">Click to read more...</a>
+      </button>
     </div>
 
-    <div class="cast">
-      <h3 id="cast">Cast and characters</h3>
-      <ul>
-        <li>Gillian Anderson / Dana Scully</li>
-        <li>David Duchovny / Fox Mulder</li>
-      </ul>
-    </div>
-
-    <div class="episodes">
-      <h3 id="episodes">Episodes</h3>
-      <ol>
-        <li><a href="">Season 1</a></li>
-        <li><a href="">Season 2</a></li>
-        <li><a href="">Season 3</a></li>
-        <li><a href="">Season 4</a></li>
-        <li><a href="">Season 5</a></li>
-        <li><a href="">Season 6</a></li>
-        <li><a href="">Season 7</a></li>
-        <li><a href="">Season 8</a></li>
-        <li><a href="">Season 9</a></li>
-        <li><a href="">Season 10</a></li>
-        <li><a href="">Season 11</a></li>
-      </ol>
-    </div>
-
+    <!-- Photo gallery -->
+    <h3>PHOTO GALLERY</h3>
     <div class="photos" id="photos">
-      <ul class="photos-gallery">
-        <li><img src="./images/scullyandmulder.jpeg" /></li>
-        <li><img src="./images/xfilesbanner.jpeg" /></li>
-        <li><img src="./images/bluexfiles.jpeg" /></li>
-        <li><img src="./images/vhs.jpeg" /></li>
-        <li><img src="./images/scullyandmulderpic.jpeg" /></li>
-        <li><img src="./images/vhsxfiles1.jpeg" /></li>
-      </ul>
+      <div class="photos-gallery-one">
+        <img src="./images/scullyandmulder.jpeg" />
+        <img src="./images/xfilesbanner.jpeg" />
+        <img src="./images/bluexfiles.jpeg" />
+        <img src="./images/vhs.jpeg" />
+        <img src="./images/scullyandmulderpic.jpeg" />
+        <img src="./images/vhsxfiles1.jpeg" />
+        <img src="./images/Txf-intro.webp" />
+        <img src="./images/The X-Files (1993)_files/640263_1.jpg" alt="" />
+        <img src="./images/The X-Files (1993)_files/71OBgK+A8IL._SL1500_.jpg" />
+      </div>
+
+      <div class="photos-gallery-two">
+        <img src="./images/x-files-wall.jpeg" />
+        <img src="./images/The X-Files (1993)_files/image.webp" alt="" />
+        <img
+          src="./images/The X-Files (1993)_files/large_a8b28b4799a872b155e308f18e601eb1-xfiles.jpg"
+          alt=""
+        />
+        <img
+          src="./images/The X-Files (1993)_files/the-x-files-i-want-to-believe-i30592.jpg"
+          alt=""
+        />
+        <img
+          src="./images/The X-Files (1993)_files/MV5BMjdlNDU3ZTEtZTE0Yy00ZGQ4LWExODktNDk4YTc3ZWM4ZTdlXkEyXkFqcGdeQXVyNjYwMTg4NTg@._V1_.jpg"
+          alt=""
+        />
+        <img
+          src="./images/The X-Files (1993)_files/MV5BMjEyYjczZTItNzg0Yi00NDJkLTlhN2YtZGYwOTUyMGY2M2I4L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg"
+          alt=""
+        />
+        <img src="./images/The_Truth_Is_Out_There_tagline.webp" />
+        <img src="./images/1453293186-the-x-files.jpeg" />
+        <img src="./images/txf25-pilot-2.jpeg" />
+        <img src="./images/x-files-home.jpeg" />
+      </div>
     </div>
 
-    <div class="videos" id="videos"> </div>
+    <!-- Video gallery -->
+    <h3>TRAILERS AND VIDEOS</h3>
+    <div class="videos" id="videos">
+      <div class="video-gallery">
+        <iframe
+          width="420"
+          height="345"
+          src="https://www.youtube.com/embed/CYeIO9nxick"
+        >
+        </iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/csAIcswomUk"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/KKziOmsJxzE"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/EFRbef3bsPY"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/qyq50YmMpso"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/8WEnUYWZhRU"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
 
-    <footer> Coded by Marija </footer>
+    <!-- Footer -->
+    <footer> Coded by Marija Rubil </footer>
+
+    <!-- JavaScript -->
+    <script src="./script.js"></script>
   </body>
 </html>
