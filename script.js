@@ -50,15 +50,13 @@ function clickButton() {
     alert('Button clicked');
 }
 */
-var mobileMenuBtn = document.querySelector("#mobile-menu-btn");
-var mobileMenu = document.querySelector(".mobile-menu");
 
-mobileMenuBtn.addEventListener("click", () => {
-  if (mobileMenu.style.display === "none") {
-    mobileMenu.style.display = "flex";
-    mobileMenuBtn.innerHTML = "Close";
+
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.className === "links") {
+    x.className += " responsive";
   } else {
-    mobileMenu.style.display = "none";
-    mobileMenuBtn.innerHTML = "Menu";
+    x.className = "links";
   }
-});
+}

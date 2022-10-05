@@ -15,16 +15,18 @@
     <title>Episodes</title>
   </head>
   <body>
-    <!-- Title of the page -->
-    <div class="header">
-      <a href="index.html" class="logo">The X-Files Fan Page</a>
-    </div>
-
     <!-- NAVIGATION BAR -->
-    <nav class="links">
-      <a href="./cast.html">Cast and characters</a>
-      <a href="./episodes.html">Episodes</a>
-      <a href="./photogallery.html">Photos/Videos</a>
+    <nav>
+      <div class="links" id="myLinks">
+        <a href="./index.html" class="logo">The X-Files Fan Page</a>
+        <a href="./cast.html">Cast and characters</a>
+        <a href="./episodes.html">Episodes</a>
+        <a href="./photogallery.html">Photos/Videos</a>
+        <a href="./trivia.html">Trivia</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
     </nav>
 
     <div class="episodes" id="episodes">
@@ -48,5 +50,8 @@
     <footer class="footer">
       <p> Created by Marija Rubil </p>
     </footer>
+
+    <!-- JavaScript -->
+    <script src="./script.js"></script>
   </body>
 </html>
