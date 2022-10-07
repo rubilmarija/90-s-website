@@ -113,7 +113,7 @@ h3 {
     display: none;
 }
 
-@media screen and (max-width: 923px) {
+@media screen and (max-width: 600px) {
     .links a:not(:first-child) {display: none;}
     .links a.icon {
         float: right;
@@ -121,7 +121,7 @@ h3 {
     }
 }
 
-@media screen and (max-width: 923px) {
+@media screen and (max-width: 600px) {
     .links.responsive {position: relative;}
     .links.responsive .icon {
         position: absolute;
@@ -169,7 +169,7 @@ h3 {
 
 .storyline {
     margin: 15px;
-    padding: 10px;  
+    padding: 25px;  
 }
 
 .story-link {
@@ -348,7 +348,19 @@ iframe {
     color: var(--ufo-green);
 }
 
-/* */
+/* Trivia */
+.trivia-title {
+    margin: 10px;
+    padding: 20px;
+}
+.trivia-text {
+    margin: 20px;
+    padding: 25px;
+}
 
+.add-trivia {
+    margin: 15px;
+    padding: 25px;
+}
 
 /* MEDIA QUERIES */
