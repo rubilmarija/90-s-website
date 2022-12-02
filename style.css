@@ -259,12 +259,7 @@ h3 {
     box-shadow: 0 4px 8px 0 var(--ufo-green), 0 6px 20px var(--pink);
 }
 
-.photos-gallery-one {
-    display: flex;
-    flex-direction: row;
-}
-
-.photos-gallery-two {
+.photos-gallery-one, .photos-gallery-two {
     display: flex;
     flex-direction: row;
 }
